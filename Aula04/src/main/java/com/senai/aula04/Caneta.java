@@ -29,3 +29,4 @@ public class Caneta {
         System.out.println("Ponta: " + this.ponta);
     }
 }
+    //Alt + Insert pode auxiliar gerando Contructs, getters e setters
