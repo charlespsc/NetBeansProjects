@@ -17,5 +17,13 @@ public class Aula11 {
         v1.setIdade(23);
         v1.setSexo("M");
         System.out.println(v1.toString());
+        
+        Aluno a1  = new Aluno();
+        a1.setNome("Marcos");
+        a1.setMaricula(0001);
+        a1.setCurso("Banco de Dados");
+        a1.setIdade(16);
+        a1.setSexo("M");
+        a1.pagarMensalidade();
     }
 }

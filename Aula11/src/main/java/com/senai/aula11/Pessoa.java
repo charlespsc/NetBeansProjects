@@ -6,9 +6,9 @@ package com.senai.aula11;
  * @author charles
  */
 public abstract class Pessoa {
-    private String nome;
-    private int idade;
-    private String sexo;
+    protected String nome;
+    protected int idade;
+    protected String sexo;
     
     public void fazerAniversario(){
         this.idade++;
