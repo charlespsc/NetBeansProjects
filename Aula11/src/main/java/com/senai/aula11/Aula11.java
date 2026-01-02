@@ -25,5 +25,32 @@ public class Aula11 {
         a1.setIdade(16);
         a1.setSexo("M");
         a1.pagarMensalidade();
+        
+        Bolsista b1 = new Bolsista();
+        b1.setMaricula(0002);
+        b1.setNome("Anderson");
+        b1.setBolsa(12.5f);
+        b1.setSexo("M");
+        b1.pagarMensalidade();
+        
+        Professor p1 = new Professor();
+        p1.setNome("Prof. Carlos");
+        p1.setIdade(53);
+        p1.setSexo("M");
+        p1.setEspecializacao("Mestre em Banco de Dados");
+        p1.setSalario(23000);
+        p1.fazerAniversario();
+        System.out.println(p1.toString());
+        
+        Tecnico t1 = new Tecnico();
+        t1.setNome("Marcelo");
+        t1.setMaricula(0003);
+        t1.setRegistroProfissional(1234);
+        t1.setCurso("Banco de Dados");
+        t1.setIdade(23);
+        t1.setSexo("M");
+        t1.pagarMensalidade();
+        System.out.println(t1.toString());
+        
     }
 }
